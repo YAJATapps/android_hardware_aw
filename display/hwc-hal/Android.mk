@@ -78,7 +78,9 @@ LOCAL_SRC_FILES += writeback/WriteBackBufferPool.cpp \
 LOCAL_SHARED_LIBRARIES += libGLESv2 libGLESv3 libui libEGL
 endif
 
-LOCAL_STATIC_LIBRARIES += libawhdr10p
+ifeq ($(TARGET_ARCH), arm)
+  LOCAL_STATIC_LIBRARIES += libawhdr10p
+endif
 
 LOCAL_SHARED_LIBRARIES += \
 		libhwc_config \

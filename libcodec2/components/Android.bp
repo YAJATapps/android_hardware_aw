@@ -46,6 +46,12 @@ cc_library_shared {
         "libvencoder",
         "libcdc_base",
     ],
+
+    arch: {
+        arm64: {
+            enabled: false, // Skip this library for arm64
+        },
+    },
 }
 
 filegroup {
@@ -76,4 +82,10 @@ cc_defaults {
     ],
 
     ldflags: ["-Wl,-Bsymbolic"],
+
+    arch: {
+        arm64: {
+            enabled: false, // Skip this library for arm64
+        },
+    },
 }

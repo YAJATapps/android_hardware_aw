@@ -25,7 +25,7 @@ cc_prebuilt_library_static {
             srcs: ["libhdr10p.a"],
         },
         arm64: {
-            srcs: ["libhdr10p.a"],
+            enabled: false, // Disable for arm64
         },
     },
 }

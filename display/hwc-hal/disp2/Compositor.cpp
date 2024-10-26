@@ -563,9 +563,11 @@ unsigned int Compositor::ionGetMetadataFlag(buffer_handle_t handle)
         struct sunxi_metadata *ptr = (struct sunxi_metadata *)map_ptr;
         flag = ptr->flag;
 
+#if defined(ARM_ARCH)
         if (flag & SUNXI_METADATA_FLAG_HDRP_HEADER) {
             processHdr10p(ptr);
         }
+#endif
         /*struct afbc_header *p = &(ptr->afbc_head);
         DLOGD("&&&&& afbc header:");
         DLOGD("%u,%u,%u,%u;\n"

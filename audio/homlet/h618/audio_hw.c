@@ -2135,7 +2135,7 @@ static bool detectIEC61937(struct sunxi_stream_out *out, const void * audio_buf,
    while(i < (bytes - 3)){
        if(buf[i] == 0x72 && buf[i+1] == 0xF8 && buf[i+2] == 0x1F && buf[i+3] == 0x4E)
        {
-           ALOGV("Detect a iec header!!, byte : %d", bytes);
+           ALOGV("Detect a iec header!!, byte : %zu", bytes);
            break;
        }
        i++;

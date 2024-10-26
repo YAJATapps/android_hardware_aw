@@ -37,7 +37,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -46,7 +46,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -55,7 +55,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -81,7 +81,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -90,7 +90,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -99,7 +99,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 CAMERA_CFLAGS += -DUSE_IOMMU_DRIVER
 include $(BUILD_PREBUILT)
@@ -128,7 +128,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
@@ -138,7 +138,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
@@ -148,7 +148,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := false
 CAMERA_CFLAGS += -DUSE_IOMMU_DRIVER
@@ -178,7 +178,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
@@ -188,7 +188,7 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 #LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 #LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-#LOCAL_MULTILIB:= both
+#LOCAL_MULTILIB:=32
 #LOCAL_MODULE_TAGS := optional
 #include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -197,7 +197,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
@@ -228,7 +228,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 #include $(CLEAR_VARS)
@@ -237,7 +237,7 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 #LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 #LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-#LOCAL_MULTILIB:= both
+#LOCAL_MULTILIB:=32
 #LOCAL_MODULE_TAGS := optional
 #include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -246,7 +246,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -276,7 +276,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 #include $(CLEAR_VARS)
@@ -285,7 +285,7 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 #LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 #LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-#LOCAL_MULTILIB:= both
+#LOCAL_MULTILIB:=32
 #LOCAL_MODULE_TAGS := optional
 #include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -294,7 +294,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -324,7 +324,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
@@ -334,7 +334,7 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 #LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 #LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-#LOCAL_MULTILIB:= both
+#LOCAL_MULTILIB:=32
 #LOCAL_MODULE_TAGS := optional
 #include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -343,7 +343,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
@@ -374,7 +374,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 #include $(CLEAR_VARS)
@@ -383,7 +383,7 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 #LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 #LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-#LOCAL_MULTILIB:= both
+#LOCAL_MULTILIB:=32
 #LOCAL_MODULE_TAGS := optional
 #include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -392,7 +392,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -422,7 +422,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 #include $(CLEAR_VARS)
@@ -431,7 +431,7 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 #LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 #LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-#LOCAL_MULTILIB:= both
+#LOCAL_MULTILIB:=32
 #LOCAL_MODULE_TAGS := optional
 #include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -440,7 +440,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -464,7 +464,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -473,7 +473,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -482,7 +482,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -508,7 +508,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -517,7 +517,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -526,7 +526,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -552,7 +552,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -561,7 +561,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -570,7 +570,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -596,7 +596,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -605,7 +605,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -614,7 +614,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -640,7 +640,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -649,7 +649,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -658,7 +658,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -686,7 +686,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libfacedetection.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libfacedetection.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 #include $(CLEAR_VARS)
@@ -695,7 +695,7 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 #LOCAL_SRC_FILES_32 := lib32/facedetection/libSmileEyeBlink.so
 #LOCAL_SRC_FILES_64 := lib64/facedetection/libSmileEyeBlink.so
-#LOCAL_MULTILIB:= both
+#LOCAL_MULTILIB:=32
 #LOCAL_MODULE_TAGS := optional
 #include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
@@ -704,7 +704,7 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/facedetection/libapperceivepeople.so
 LOCAL_SRC_FILES_64 := lib64/facedetection/libapperceivepeople.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_PREBUILT)
 
@@ -734,7 +734,7 @@ LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/proc/libproc.so
 LOCAL_SRC_FILES_64 := lib64/proc/libproc.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 # TODO revert this after fix elf check fail
 LOCAL_CHECK_ELF_FILES := false
@@ -746,7 +746,7 @@ LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_SRC_FILES_32 := lib32/hdr/libhdr.so
 LOCAL_SRC_FILES_64 := lib64/hdr/libhdr.so
-LOCAL_MULTILIB:= both
+LOCAL_MULTILIB:=32
 LOCAL_MODULE_TAGS := optional
 # TODO revert this after fix elf check fail
 LOCAL_CHECK_ELF_FILES := false
@@ -845,7 +845,7 @@ LOCAL_SHARED_LIBRARIES += $(CAMERA_SHARED_LIBRARIES)
 
 LOCAL_CFLAGS += -Wno-error=format-security
 LOCAL_MODULE := camera.$(TARGET_BOARD_PLATFORM)
-
+LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 
